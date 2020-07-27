@@ -1,0 +1,25 @@
+{   
+    "env_type": "2D",   
+    "game_name": "Breakout-ram-v4",
+    "learning_rate": 0.0025,
+    "decay_rate": 1.001,
+    "num_of_game_play": 100000,
+    "learning_start_after_frames": 10000,
+    "update_main_model": 4,
+    "update_target_model": 8000,
+    "check_point" : "Check_point/Breakout-ram-v4_20200718083145_reward_106.0_frames_820356.h5",
+    "render": true,
+
+    "training" : {
+        "training": false,
+        "save_model": true,
+        "resume": false,
+        "batch_size": 32,
+        "memory_max_size": 40000
+        
+    },
+    "testing":{
+        "testing": true,
+        "sleep_btwn_frame" : 0.01
+    }
+}
