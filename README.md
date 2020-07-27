@@ -56,10 +56,12 @@ This implementation contains:
 
 ## Results
 
-Result of training on cpu 2 hrs
+- Result of training on cpu 2 hrs
+
 ![best](assets/boxing.gif)
 
-Result of training on cpu 4 hrs
+- Result of training on cpu 4 hrs.
+
 ![best](assets/breakout.gif)
 
 
