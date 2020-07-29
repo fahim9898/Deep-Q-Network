@@ -39,7 +39,7 @@ This implementation contains:
         "save_model": false,             // Save Model??
         "resume": false,                 // Resume model form check_point path
         "batch_size": 32,                // Batch size
-        "memory_max_size": 100000         // Memory for store frams
+        "memory_max_size": 100000        // Memory for store frams
         
     },
     "testing":{                          // Testing config
